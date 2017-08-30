@@ -1,0 +1,9 @@
+  LD A,17H
+  LD B,04H
+  LD E,A
+  ADD A,B
+  LD L,A
+  LD H,A
+  LD (2001),HL
+  HALT;halt cpu
+  .END
